@@ -1,3 +1,5 @@
+game["Loaded"]:Wait()
+repeat wait() until game:IsLoaded()
 if game.Players.LocalPlayer.ID == 420429000 then
   print("Puto Estas En BlackList")
   else
